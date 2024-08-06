@@ -5,6 +5,17 @@
     font-style: normal;
 }
 
+.logo {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
 
 * {
     margin: 0;
@@ -44,11 +55,20 @@
 
 .formentry label {
     font-size: 12px;
+    color: darkslategrey;
 }
 
 .formentry input {
     padding: 4px;
     border-radius: 15px;
+}
+
+.formentry input:invalid {
+    border-color: red;
+}
+
+.formentry input:focus {
+    border-color: blue;
 }
 
 .whitebox {
@@ -65,6 +85,11 @@
     margin-left: 20px;
     border: solid 1px black;
     border-radius: 15px;
-    background-color: darkgreen;
+    background-color: #596D48;
     color: white;
+}
+
+.form button:hover {
+    background: green;
+    border-radius: 20px;
 }
