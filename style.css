@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NorseBold', sans-serif;
+}
+
+.mainimg {
+    height: 100vh;
+    width: auto;
+}
+
+.maintext {
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.mainbox {
+    background-color: lightgray;
+}
+
+.formrow {
+    display: flex;
+    gap: 20%;
+}
+
+.formentry {
+    display: flex;
+    flex-direction: column;
+}
+
+.formentry label {
+    font-size: 12px;
+}
+
+.formentry input {
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.whitebox {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form button {
+    padding: 10px;
+    margin-left: 20px;
+    border: solid 1px black;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+}
